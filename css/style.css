@@ -1,0 +1,172 @@
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+#header_area {
+    background-color: rgb(231, 250, 236);
+    padding: 10px 0px 50px 0px;
+}
+
+section {
+    margin: 100px 0px;
+}
+
+.logo {
+    width: 170px;
+    margin-top: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 600;
+    margin: 5px 10px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: #1abc9c;
+    border-radius: 20px;
+    padding: 8px 23px;
+    font-weight: normal;
+}
+
+.primary-btn {
+    margin: 10px 0px;
+    border: none;
+    padding: 10px 25px;
+    background-color: #1abc9c;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.green-color {
+    color: #1abc9c;
+}
+
+.orange-color {
+    color: rgb(253, 96, 56);
+}
+
+.hero_area {
+    margin: 100px auto;
+}
+
+
+.cat-1 {
+    background-color: rgb(245, 255, 248);
+    padding: 50px 45px;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: 0.3s ease;
+    margin: 20px;
+}
+
+.cat-1:hover {
+    background-color: #fff;
+    transform: scale(1.1);
+    box-shadow: 4px 4px 20px rgb(238, 236, 236);
+}
+
+.cat-1 img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin: 0px 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 5px 5px 15px rgb(214, 214, 214);
+}
+
+.card img {
+    border-radius: 20px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.card-footer {
+    background-color: #fff;
+    border: none;
+    color: #000;
+}
+
+.text-muted img {
+    width: 40px;
+    margin-right: -5px;
+}
+
+.text-muted {
+    color: #000 !important;
+    font-weight: 500;
+    margin-left: -10px;
+}
+
+.h2-heading {
+    margin-bottom: 60px;
+}
+
+#footer_area {
+    background-color: rgb(7, 12, 37);
+    padding: 70px 0px 50px 0px;
+    color: #fff;
+}
+
+#footer_area p {
+    color: rgb(223, 223, 223);
+    margin-right: 150px;
+}
+
+#footer_area ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer_area ul li {
+    margin: 15px 0px;
+}
+
+#footer_area ul li a {
+    color: rgb(223, 223, 223);
+    font-size: 14px;
+}
+
+.copyright-info {
+    text-align: center;
+    margin-top: 80px;
+    color: rgb(223, 223, 223);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .orange-color {
+        font-size: 14px;
+    }
+
+    #footer_area ul li a {
+        font-size: 12px;
+    }
+
+    #footer_area h5 {
+        font-size: 14px;
+    }
+
+    .copyright-info {
+        margin-top: 50px;
+        font-size: 12px;
+    }
+
+    #footer_area {
+        padding: 50px 0px 30px 0px;
+    }
+}
